@@ -1,0 +1,45 @@
+html, body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    margin: 5px;
+    font-size: large;
+
+}
+/*Element selector*/
+p {
+    color: gray;
+    font-size: large;
+}
+
+/*ID selector*/
+#footer-p {
+    color: darkred;
+    font-size: larger;
+}
+
+/*Class selector*/
+.title {
+    font-size: 25px;
+    font-family: 800;
+    font-style: normal;
+    text-decoration: underline;
+} 
+
+/*Hover effect*/
+a {
+    background-color: aliceblue;
+
+}
+
+a:hover {
+    background-color: chartreuse;
+}
+
+/*Display grid*/
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1px;
+    border: 1px solid gray;
+
+}
