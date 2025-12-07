@@ -41,7 +41,7 @@ a:hover {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 0px;
+    column-gap: 10px;
     border: 1px solid darkred;
  
 }
